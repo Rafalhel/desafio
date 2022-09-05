@@ -27,5 +27,4 @@ for nmrPi in PI:
             break
         aux = aux[1:]
 
-
 print(palindromos)
