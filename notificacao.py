@@ -3,6 +3,7 @@ from win10toast import ToastNotifier
 class notificacao:
     def __init__(self):
         self.toast = ToastNotifier()
+        self.emailRemetente = 'notificacoes'
     def notificar(self, titulo: str, mensagem: str):
         self.toast.show_toast(titulo, mensagem,  duration=20)
 # '217468389'
@@ -16,3 +17,4 @@ class notificacao:
 '104962917'
 '659703795'
 '204706746'
+'377642535'
