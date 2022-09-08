@@ -50,7 +50,7 @@ def palindromo(numero: str):
         nmrPalindromo = numero
 
     # elif primo(numero):
-    elif numero == int(str(numero)[::-1]):
+    elif int(numero) == int(str(numero)[::-1]):
 
         # if numero == int(str(numero)[::-1]):
         if primo(numero):
